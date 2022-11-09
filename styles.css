@@ -130,3 +130,19 @@ img{
   .attribution a:hover {
     color: black;
   }
+
+@media only screen and (max-width: 375px) {
+main{
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    position: relative;
+    margin: 0 auto;
+}
+body{
+    overflow: scroll;
+}
+
+}
