@@ -1,0 +1,132 @@
+
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 20px;
+    margin-left: 40px;
+    line-height: 25px;
+}
+
+h1{
+    color:hsl(0, 0%, 95%);
+    margin: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: Big Shoulders Display;
+    font-size: 40px;
+}
+
+body{
+    background-color:  hsl(0, 0%, 95%);
+    font-size: 15px;
+    display: flex;
+    overflow: hidden;
+}
+
+main{
+    width: 830px;
+    height: 450px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -220px 0 0 -415px;
+    display: flex;
+    border-radius: 5px;
+} 
+
+
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    font-family: Lexend Deca;
+
+}
+
+#suvs{
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    font-family: Lexend Deca;
+}
+
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    font-family: Lexend Deca;
+}
+
+button{
+    border-radius: 30px;
+    background-color:  hsl(0, 0%, 95%);
+    text-align: center;
+    padding: 15px;
+    margin: 50px;
+    margin-right: 70px;
+    width: 130px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#buttonSedans{
+    color: hsl(31, 77%, 52%);
+}
+
+#buttonLuxury{
+    color: hsl(179,100%,13%);
+}
+
+#buttonSuvs{
+    color: hsl(184, 100%, 22%);
+}
+
+#buttonSuvs:hover{
+    background-color: hsl(184, 100%, 22%);
+    border-color: white;
+    color: white;
+    transition: 0.2s;
+}
+
+#buttonLuxury:hover{
+    color:white;
+    border-color: white;
+    background-color: hsl(179, 100%, 13%);
+    transition: 0.2s;
+}
+
+#buttonSedans:hover{
+    color:white;
+    border-color: white;
+    background-color: hsl(31, 77%, 52%);
+    transition: 0.2s;
+}
+
+img{
+    width: 65px;
+    margin: 40px;
+    margin-bottom: 30px;
+}
+
+.attribution {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    color: gray;
+    bottom: 10px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .attribution a {
+    text-decoration: none;
+    color: darkgray;
+  }
+  
+  .attribution a:hover {
+    color: black;
+  }
