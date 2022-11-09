@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [https://www.frontendmentor.io/solutions/3column-preview-card-component-solution-WyyHtJuJlc](https://www.frontendmentor.io/solutions/3column-preview-card-component-solution-WyyHtJuJlc)
 - Live Site URL: [https://karol-op.github.io/3-column-preview-card-component/](https://karol-op.github.io/3-column-preview-card-component/)
 
 
